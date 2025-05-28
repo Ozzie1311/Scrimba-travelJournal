@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+.header {
+  background: #f55a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 55px;
+}
+
+.header-logo {
+  width: 42px;
+  margin-right: 10px;
+  fill: white;
+  filter: invert();
+}
+
+.header-text {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.entry {
+  display: flex;
+  width: 880px;
+  margin: 0 auto;
+  margin-top: 40px;
+  box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.entry-img-container {
+  width: 180px;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+
+.entry-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.entry-info {
+  padding: 20px;
+}
+
+.entry-info-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.entry-info-country {
+  display: flex;
+  align-items: center;
+}
+
+.entry-info-location {
+  text-transform: uppercase;
+  margin-right: 20px;
+  font-size: 0.7rem;
+}
+
+.entry-info-link {
+  font-size: 0.7rem;
+  color: #4f4f59;
+}
+
+.entry-info-link:visited {
+  color: #f55a5a;
+}
+
+.entry-info-title {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.entry-info-date {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.entry-info-text {
+  color: #4f4f59;
+  font-size: 0.8rem;
+  font-weight: 400;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-height: 1.5;
+}
