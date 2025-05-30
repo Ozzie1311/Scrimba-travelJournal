@@ -5,6 +5,8 @@
 
 body {
   font-family: Inter, sans-serif;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .header {
@@ -32,14 +34,15 @@ body {
   display: flex;
   width: 880px;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 20px;
   box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
+  background-color: #f5f5f5;
 }
 
 .entry-img-container {
-  width: 180px;
-  height: 220px;
+  width: 160px;
+  height: 200px;
   overflow: hidden;
   border-radius: 5px;
   flex-shrink: 0;
@@ -52,7 +55,7 @@ body {
 }
 
 .entry-info {
-  padding: 20px;
+  padding: 10px;
 }
 
 .entry-info-icon {
